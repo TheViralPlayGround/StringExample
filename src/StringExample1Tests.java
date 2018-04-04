@@ -47,5 +47,11 @@ class StringExample1Tests {
 		String testString = "special !@#$%^&*():";
 		assertEquals("!@#$%^&*():", StringExample1.returnLongestWord(testString), "Allow special characters");
 	}
+	
+	@Test
+	public void sameWordCanBeLongestTest() {
+		String testString = "new new";
+		assertEquals("new", StringExample1.returnLongestWord(testString), "Longest word can appear twice in sentence");
+	}
 
 }
