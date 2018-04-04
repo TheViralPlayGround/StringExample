@@ -5,14 +5,14 @@ import org.junit.jupiter.api.Test;
 class StringExample1Tests {
 
 	@Test
-	public void noWordsShowsZero() {
+	public void noWordsShowsZeroTest() {
 		String testString = "";
 		assertEquals("", StringExample1.returnLongestWord(testString), "No words is 0");
 
 	}
 
 	@Test
-	public void longestWord() {
+	public void longestWordTest() {
 		String testString = "this is the longest word";
 		assertEquals("longest", StringExample1.returnLongestWord(testString), "Longest is the longest word");
 
