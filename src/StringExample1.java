@@ -2,8 +2,7 @@
 public class StringExample1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
 		 String exampleSentence = "The cow jumped over the moon";
 		 returnLongestWord(exampleSentence);
 	       

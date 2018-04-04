@@ -21,7 +21,13 @@ class StringExample1Tests {
     @Test
     public void firstWordIsTheLongestTest() {
     		String testString = "Latitude is the longest";
-    		assertEquals("latitude", StringExample1.returnLongestWord(testString), "First word is the longest string");
+    		assertEquals("latitude", StringExample1.returnLongestWord(testString), "First word can be longest");
+    }
+    
+    @Test
+    public void lastWordIsTheLongestTest() {
+    		String testString = "this is the longest";
+    		assertEquals("longest", StringExample1.returnLongestWord(testString), "Last word can be longest");
     }
     
     @Test
