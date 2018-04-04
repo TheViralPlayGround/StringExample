@@ -17,6 +17,12 @@ class StringExample1Tests {
 		assertEquals("longest", StringExample1.returnLongestWord(testString), "Longest is the longest word");
 
 	}
+	
+	@Test
+	public void oneWordTest() {
+		String testString = "One";
+		assertEquals("one", StringExample1.returnLongestWord(testString), "One word can be longest");
+	}
 
 	@Test
 	public void firstWordIsTheLongestTest() {
