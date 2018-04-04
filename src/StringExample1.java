@@ -13,7 +13,9 @@ public class StringExample1 {
 		// Assumptions
 		// 1. Special characters are included in the length of a word.
 		// 2. Numbers are included in the length of the word.
-		// 3. Spaces separate words from each other
+		// 3. Spaces separate words from each other.
+		// 4. Input string is not null.
+
 
 		String longestWord = "";
 		String splitWords[] = sentence.split(" ");
