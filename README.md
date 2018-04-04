@@ -8,3 +8,5 @@ This is a java application with a method to extract the longest word for any inp
 2. Numbers are included in the length of the word.
 3. Spaces separate words from each other
 
+## How to use
+In order to add a new sentence to the method change the `exampleSentence` string. The tests are written using JUnit.
