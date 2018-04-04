@@ -11,6 +11,13 @@ public class StringExample1 {
 	 
 	 public static String returnLongestWord (String sentence) {
 	        
+		 
+		 //  Assumptions
+		 //  1. Special characters are included in the length of a word.
+		 //  2. Numbers are included in the length of the word.
+		 //  3. Spaces separate words from each other
+
+
 	        String longestWord ="";
 	        String splitWords [] = sentence.split(" ");
 	          
